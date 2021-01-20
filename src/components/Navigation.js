@@ -6,8 +6,9 @@ function Navigation(){
     return ( 
     <div className="nav">
         <Link to="/">home</Link>
-        <Link to="/about">about</Link>
-
+        <Link to="/company">Company</Link>
+        <Link to="/member">Members</Link>
+        <Link to="/map">location</Link>
     </div>
     );
 }

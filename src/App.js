@@ -1,8 +1,10 @@
 import React from "react";
 import { HashRouter, Route} from "react-router-dom";
-import About from "./routes/About";
+import Member from "./routes/MemberContainer";
 import Home from "./routes/Home";
 import Navigation from "./components/Navigation";
+import MapContainer from "./routes/MapContainer";
+import Company from "./routes/Company";
 import "./App.css";
 
 //라우터가 작성될 페이지
@@ -11,7 +13,9 @@ function App(){
   return <HashRouter>
     <Navigation />
     <Route path="/" exact={true} component={Home} />
-    <Route path="/about" component={About} />
+    <Route path="/member" component={Member} />
+    <Route path="/map" component={MapContainer} />
+    <Route path="/company" component={Company} />
   </HashRouter>;
 }
 

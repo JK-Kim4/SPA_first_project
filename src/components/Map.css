@@ -1,0 +1,10 @@
+.map__container{
+    display: flex;
+    flex-direction: column;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center; ;
+    margin-top: 70px;
+}
+
