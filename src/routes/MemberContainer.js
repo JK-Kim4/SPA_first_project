@@ -13,25 +13,25 @@ class MemberContainer extends React.Component {
             name: '한재희',
             job: 'PM',
             email: 'jh.han@eatech.kr',
-            tel: '010-2692-7481'
+            tel: '010-0000-0000'
         },
         {
             name: '이태훈',
             job: '개발팀장',
             email: 'th.lee@eatech.kr',
-            tel: '010-4222-6886'
+            tel: '010-0000-0000'
         },
         {
             name: '김종완',
             job: '개발자',
             email: 'jw.kim@eatech.kr',
-            tel: '010-2340-5171'
+            tel: '010-0000-0000'
         },
         {
             name: '엄대정',
             job: '개발자',
             email: 'dj.eom@eatech.kr',
-            tel: '010-9136-7473'
+            tel: '010-0000-0000'
         }
     ],
   };
